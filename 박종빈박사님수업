@@ -8,6 +8,8 @@
 ### PYTHON
 https://github.com/shoark7/Effective-Python/blob/master/files/BetterWay01_KnowThyself.md
 
+### Better Ways 03 
+- byte string unicode 차이점알기
 
 ### Typographical conventions
 -> gjbex github 찾아보기
@@ -15,4 +17,30 @@ https://github.com/gjbex
 
 for문 줄이기 -> cuda 사용하기
 
-### 
+### Betterways 05
+- 가나다라마바사아자차카타파하 -> 나라바아차타하
+
+w = '가나다라마바사아자차카타파하' 
+x = w.encode('utf-8')
+#print x
+# b'\xea\xb0\x80\xeb\x82\x98\xeb\x8b\xa4\xeb\x9d\xbc\xeb
+#\xa7\x88\xeb\xb0\x94\xec\x82\xac\xec\x95\x84\xec\x9e\x90
+#\xec\xb0\xa8\xec\xb9\xb4\xed\x83\x80\xed\x8c\x8c\xed\x95\x98
+
+#print(len)x 
+#42 
+
+[b for a in zip (y1,y2,y3,y4) for b in a]
+= 
+for a in zip(y1,y2,y3,y4):
+  for b in a:
+  return(b)
+  
+[d for a in zip(y1,y2,y4,y4) for b in a for c in b for d in c]
+= 
+for a in zip(y1,y2,y4,y4):
+  for b in c:
+    for c in d:
+      for d in ? :
+      return(d)
+
